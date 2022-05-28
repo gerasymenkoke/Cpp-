@@ -4,17 +4,12 @@ compiler:
  # - clang
 script: make
 
-
-
-
-
-
 deploy:
  provider: pages
    skip_cleanup: true
  github-token: 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
  local_dir: build
  on:
- branch: main
+ branch:  main
 
  
