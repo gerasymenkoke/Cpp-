@@ -11,6 +11,6 @@ deploy:
  keep_history: true
  local_dir: build
  on:
-    branch:  main
+  branch:  main
 
  
