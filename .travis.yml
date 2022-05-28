@@ -5,22 +5,16 @@ compiler:
 script: make
 
 
+
+
+
+
 deploy:
-  provider: releases
-  token: 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
-  file: hello
-  edge: true # opt in to dpl v2
-  on:
-    tags: true
-
-
-
-# deploy:
- # provider: pages
-  # skip_cleanup: true
- # github-token: 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
- # local_dir: build
- # on:
- #   branch: master
+ provider: pages
+   skip_cleanup: true
+ github-token: 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
+ local_dir: build
+ on:
+ branch: main
 
  
