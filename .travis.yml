@@ -8,7 +8,7 @@ script: make
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: "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"
   keep_history: true
   on:
     branch: main
