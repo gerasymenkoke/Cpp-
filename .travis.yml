@@ -4,13 +4,5 @@ compiler:
 
 script: make
 
-deploy:
- provider: pages
-   skip_cleanup: true
- github-token: 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
- keep_history: true
- local_dir: build
- on:
-  branch:  master
 
  
