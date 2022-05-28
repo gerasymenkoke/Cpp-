@@ -4,10 +4,24 @@ compiler:
  # - clang
 script: make
 
+
 deploy:
-  provider: pages
+  provider: releases
+  api_key: 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
+  file: hello
   skip_cleanup: true
-  github-token: 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
-  local_dir: build
   on:
-    branch: master
+    tags: true
+
+
+
+
+# deploy:
+ # provider: pages
+  # skip_cleanup: true
+ # github-token: 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
+ # local_dir: build
+ # on:
+ #   branch: master
+
+ 
