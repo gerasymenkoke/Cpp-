@@ -7,12 +7,11 @@ script: make
 
 deploy:
   provider: releases
-  api_key: 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
+  token: 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
   file: hello
-  skip_cleanup: true
+  edge: true # opt in to dpl v2
   on:
     tags: true
-
 
 
 
