@@ -7,8 +7,8 @@ script: make
 
 deploy:
   provider: releases
-  api_key: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
-    secure: 
+  api_key:
+    secure: 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
   skip_cleanup: true
   # github_token: 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 
   keep_history: true
