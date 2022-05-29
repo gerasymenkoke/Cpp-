@@ -6,7 +6,7 @@ script: make
 
 
 deploy:
-  provider: pages
+  provider: releases
   
   skip_cleanup: true
   github_token: $GITHUB_TOKEN 
