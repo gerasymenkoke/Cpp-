@@ -12,7 +12,7 @@ deploy:
   # for pages  github_token: $GITHUB_TOKEN 
   # local_dir: build
   # for releases
- api_key:$GITHUB_TOKEN
+ api_key: $GITHUB_TOKEN
  on:
     branch: main
  
