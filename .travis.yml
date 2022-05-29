@@ -6,12 +6,11 @@ script: make
 
 
 deploy:
-  provider: releases
-  api_key:
-    secure: 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
+  provider: pages
+  
   skip_cleanup: true
-  # github_token: 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 
-  keep_history: true
+  github_token: $GITHUB_TOKEN 
+  local_dir: build
   on:
-    branch: main
+    branch: master
  
