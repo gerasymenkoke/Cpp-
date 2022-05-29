@@ -1,20 +1,14 @@
 language: cpp
 compiler:
   - gcc
-
 script:  make
-
-
 deploy:
   provider: releases
-  
   skip_cleanup: true
   # for pages  github_token: $GITHUB_TOKEN 
   # local_dir: build
   # for releases
- 
 api_key:  $GITHUB_TOKEN
  on:
-   
    branch:  main
  
