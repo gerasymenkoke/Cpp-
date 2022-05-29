@@ -16,5 +16,5 @@ deploy:
 api_key: $GITHUB_TOKEN
  on:
    
-   branch: main
+   branch:  main
  
