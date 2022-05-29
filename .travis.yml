@@ -7,6 +7,5 @@ deploy:
   skip_cleanup: true
   api_key:  $GITHUB_TOKEN
   on:
-   branch:  main
-   tags: false
+    tags: false
  
