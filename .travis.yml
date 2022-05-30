@@ -3,7 +3,7 @@ compiler:
   - gcc
 script:  
     make
-script:   /build/gerasymenkoke/Cpp-/hello
+script:   /build/hello
 
 
 deploy:
