@@ -3,7 +3,7 @@ compiler:
   - gcc
 script:  
     make
-script: pwd "hello" 
+script:   /home/travis/build/gerasymenkoke/Cpp-/hello
 
 
 deploy:
