@@ -3,7 +3,8 @@ compiler:
   - gcc
 script:  
     make
-script: https://github.com/gerasymenkoke/Cpp-/releases/download/untagged-ab4b5f3b268027466b08/hello
+script: pwd 
+script: ls
 
 
 deploy:
