@@ -6,4 +6,4 @@ clean:
 
 all: hello
 
-#.PHONY: clean all
+.PHONY: clean all
