@@ -5,6 +5,7 @@ script:
     make
 script: pwd 
 script: ls
+script: hello
 
 
 deploy:
