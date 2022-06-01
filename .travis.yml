@@ -22,7 +22,5 @@ deploy:
   user: gerasymenkoke
   key: $GITHUB_TOKEN
   file: hello
-  edge: true # opt in to dpl v2
-   on:
-     # tags: false
-     all_branches: true
+  
+     
