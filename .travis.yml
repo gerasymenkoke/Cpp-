@@ -5,7 +5,7 @@ script:
     make
 script: pwd 
 script: ls
-script: hello
+# script: hello
 
 
 deploy:
@@ -17,3 +17,9 @@ deploy:
     tags: false
     all_branches: true
 
+deploy:
+  provider: bintray
+  user: gerasymenkoke
+  key: $GITHUB_TOKEN
+  file: hello
+  edge: true # opt in to dpl v2
