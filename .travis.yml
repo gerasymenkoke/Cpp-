@@ -17,10 +17,10 @@ script: ls
     # tags: false
     # all_branches: true
 
-deploy:
-  provider: bintray
-  user: gerasymenkoke
-  key: $GITHUB_TOKEN
-  file: hello
+#deploy:
+ # provider: bintray
+ # user: gerasymenkoke
+ # key: $GITHUB_TOKEN
+ # file: hello
   
      
