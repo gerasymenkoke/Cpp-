@@ -8,14 +8,14 @@ script: ls
 # script: hello
 
 
-deploy:
-  provider: releases
-  skip_cleanup: true
-  api_key:  $GITHUB_TOKEN
-  file: hello
-  on:
-    tags: false
-    all_branches: true
+# deploy:
+# provider: releases
+# skip_cleanup: true
+# api_key:  $GITHUB_TOKEN
+# file: hello
+# on:
+    # tags: false
+    # all_branches: true
 
 deploy:
   provider: bintray
