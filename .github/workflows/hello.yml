@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/cpp-
     - name: hello
-      run: ./hello
+     run: ./hello
    # - name: make
    #   run: make
    # - name: make check
