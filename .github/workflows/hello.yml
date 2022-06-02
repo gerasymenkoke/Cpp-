@@ -8,14 +8,16 @@ on:
 
 jobs:
   build:
-
+  defaults:
+    run:
+        working-directory: ./build
     runs-on: ubuntu-latest
-    
+   
 
     steps:
     # - uses: actions/cpp-
     # - name: hello
-     - run: cpp-/workflows/hello
+     - run: /build/hello
    # - name: make
    #   run: make
    # - name: make check
