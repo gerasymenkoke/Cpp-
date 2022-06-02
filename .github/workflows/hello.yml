@@ -7,17 +7,17 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-  defaults:
+  
+ hello
     run:
-        working-directory: ./build
+       
     runs-on: ubuntu-latest
    
 
     steps:
     # - uses: actions/cpp-
     # - name: hello
-     - run: /build/hello
+     - run: efho "hello"
    # - name: make
    #   run: make
    # - name: make check
