@@ -5,10 +5,11 @@ on: [push]
 jobs:
   Hello:
     runs-on: ubuntu-latest
+    runs-on: hello
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+   # steps:
+      # - name: Checkout
+        # uses: actions/checkout@v2
 
-      - name: Hello
-        run: echo "Hello, GitHub 
+     # - name: Hello
+      #  run: echo "Hello, GitHub 
