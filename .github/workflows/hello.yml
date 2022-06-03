@@ -16,7 +16,7 @@ jobs:
 
     steps:
        - uses: actions/checkout@v2
-       - run:  ls - d
+       - run:  ls -d
       # cd /
       
             # chmod +x hello
