@@ -18,8 +18,8 @@ jobs:
     # - uses: actions/cpp-
     # - name: hello
      - run: pwd
-            ls -l
-            chmod +x hello
+           # ls -l
+            # chmod +x hello
 
    # - name: make
    #   run: make
