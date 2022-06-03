@@ -17,8 +17,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     # - name: hello
-    - run: cd /
-    # run:  ls -l
+    - run: |
+           cd /
+           ls -l
             # chmod +x hello
 
    # - name: make
