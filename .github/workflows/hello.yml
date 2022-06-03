@@ -15,11 +15,10 @@ jobs:
    
 
     steps:
-    - uses: actions/checkout@v2
-    # - name: hello
-    - run: |
+       - uses: actions/checkout@v2
+       - run:  ls - d
       # cd /
-      ls -d 
+      
             # chmod +x hello
 
    # - name: make
