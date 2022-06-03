@@ -18,7 +18,7 @@ jobs:
     # - uses: actions/cpp-
     # - name: hello
      - run: cd /
-           ls -l
+         - run:  ls -l
             # chmod +x hello
 
    # - name: make
