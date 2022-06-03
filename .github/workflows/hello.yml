@@ -15,7 +15,7 @@ jobs:
    
 
     steps:
-    - uses: actions/cpp-
+    - uses: actions/Cpp-
     # - name: hello
     - run: cd /
     # run:  ls -l
