@@ -16,7 +16,12 @@ jobs:
 
     steps:
        - uses: actions/checkout@v2
-       - run:  ls -d
+       - uses: actions/checkout@v2
+       
+       - run:  cd /home/workflows
+
+
+       - run:  ls -l
       # cd /
       
             # chmod +x hello
