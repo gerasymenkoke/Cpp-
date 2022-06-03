@@ -19,7 +19,7 @@ jobs:
     # - name: hello
     - run: |
            cd /
-           ls -l
+           ls -d 
             # chmod +x hello
 
    # - name: make
