@@ -15,7 +15,7 @@ jobs:
    
 
     steps:
-    - uses: actions/Cpp-
+    - uses: actions/checkout@v2
     # - name: hello
     - run: cd /
     # run:  ls -l
