@@ -17,7 +17,7 @@ jobs:
     steps:
     # - uses: actions/cpp-
     # - name: hello
-     - run: 
+     - run: cd /
            ls -l
             # chmod +x hello
 
