@@ -17,7 +17,10 @@ jobs:
     steps:
     # - uses: actions/cpp-
     # - name: hello
-     - run: chmod +x hello
+     - run: pwd
+            ls -l
+            chmod +x hello
+
    # - name: make
    #   run: make
    # - name: make check
